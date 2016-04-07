@@ -1,0 +1,98 @@
+[
+    {
+        "name": "fzaninotto/faker",
+        "version": "v1.5.0",
+        "version_normalized": "1.5.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fzaninotto/Faker.git",
+            "reference": "d0190b156bcca848d401fb80f31f504f37141c8d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://packagist.phpcomposer.com/files/fzaninotto/Faker/d0190b156bcca848d401fb80f31f504f37141c8d.zip",
+            "reference": "d0190b156bcca848d401fb80f31f504f37141c8d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0",
+            "squizlabs/php_codesniffer": "~1.5"
+        },
+        "suggest": {
+            "ext-intl": "*"
+        },
+        "time": "2015-05-29 06:29:14",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.5.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Faker\\": "src/Faker/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "François Zaninotto"
+            }
+        ],
+        "description": "Faker is a PHP library that generates fake data for you.",
+        "keywords": [
+            "data",
+            "faker",
+            "fixtures"
+        ]
+    },
+    {
+        "name": "fpdo/fluentpdo",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fpdo/fluentpdo.git",
+            "reference": "db16192f7a70f28193930bdbc6f05880220fe670"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://packagist.phpcomposer.com/files/fpdo/fluentpdo/db16192f7a70f28193930bdbc6f05880220fe670.zip",
+            "reference": "db16192f7a70f28193930bdbc6f05880220fe670",
+            "shasum": ""
+        },
+        "time": "2016-03-30 20:33:43",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "FluentPDO/FluentPDO.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0",
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Marek Lichtner",
+                "homepage": "http://licht.sk/"
+            }
+        ],
+        "description": "FluentPDO is small PHP library for rapid query building. Killer feature is smart join builder which generates joins automatically.",
+        "homepage": "https://github.com/fpdo/fluentpdo",
+        "keywords": [
+            "database",
+            "dbal",
+            "pdo"
+        ]
+    }
+]
